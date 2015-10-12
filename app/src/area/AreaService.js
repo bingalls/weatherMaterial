@@ -102,10 +102,10 @@
             }
             --place;
           }
-          area[place].high = data.data.temperature[0];
+          area[place].high = data.data.temperature[1];
           //noinspection JSUnresolvedVariable
           area[place].humidity = data.currentobservation.Relh;
-          area[place].low = data.data.temperature[1];
+          area[place].low = data.data.temperature[0];
           //noinspection JSUnresolvedVariable
           area[place].measureTime = data.currentobservation.Date;
           area[place].report = data.data.text[0];
