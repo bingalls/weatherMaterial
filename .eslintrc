@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "quotes": [2, "single", "avoid-escape"],
+    "no-multi-spaces": 0,
+    "no-use-before-define": 0,  // vendor likes to declare out of order :(
+    "no-unused-vars": 0         // allow angular declaration to be used elsewhere
+  }
+}

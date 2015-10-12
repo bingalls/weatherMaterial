@@ -1,15 +1,20 @@
 {
-  "name": "angular-material-starter",
-  "description": "A starter project for AngularJS Material",
+  "name": "weatherMaterial",
+  "description": "Weather report in Material Design",
   "version": "0.0.2",
-  "homepage": "https://github.com/angular/material-start",
+  "homepage": "https://github.com/bingalls/weatherMaterial",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "^1.4.6",
-    "angular-animate": "^1.4.6",
-    "angular-aria": "^1.4.6",
-    "angular-material": "^0.11.2"
+    "angular": "^1.4.7",
+    "angular-animate": "^1.4.7",
+    "angular-aria": "^1.4.7",
+    "angular-material": "^0.11.2",
+    "angular-weather-directive": "https://github.com/shusain/angular-sh-weather.git#~0.0.2",
+    "moment": "~2.10.6",
+    "angular-sanitize": "~1.4.7",
+    "angular-xml": "~2.2.1",
+    "angular-x2js": "~0.2.0"
   },
   "devDependencies": {
     "angular-material": "https://github.com/angular/bower-material.git#master"

@@ -1,9 +1,9 @@
 {
-  "name": "material-start",
+  "name": "weatherMaterial",
   "private": true,
   "version": "0.0.3",
-  "description": "A starter project for AngularJS Material",
-  "repository": "https://github.com/angular/material-start",
+  "description": "Weather report as Material Design demo",
+  "repository": "https://github.com/bingalls/weatherMaterial",
   "license": "MIT",
   "devDependencies": {
     "karma": "~0.10",

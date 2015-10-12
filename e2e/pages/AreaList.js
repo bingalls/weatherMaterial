@@ -1,4 +1,6 @@
-var UserList = function() {
+/* globals browser, by, element, module */
+var AreaList = function() {
+  'use strict';
   this.loadAll = function() {
     browser.get('/#');
   };
@@ -8,5 +10,5 @@ var UserList = function() {
   };
 };
 
-module.exports = UserList;
+module.exports = AreaList;
 

@@ -5,6 +5,7 @@
     </md-subheader>
 
     <md-list>
+      <!--suppress HtmlUnknownTag -->
       <md-item ng-repeat="item in cp.actions">
         <md-button ng-click="cp.submitContact(item)" id="item_{{$index}}">
             <md-icon md-svg-icon="{{ item.icon_url }}"></md-icon>
