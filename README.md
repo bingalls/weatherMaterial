@@ -1,5 +1,12 @@
 # Weather for top 5 US cities
 
+Uses NOAA US National Weather Service, the source of most weather data.
+Free, no api key required!
+
+## Demo
+
+http://www.premierpilatesandyoga.us/bruce/weather/
+
 ## Requirements
 
 * Linux compatible system, such as Mac OSX. Untested on Cygwin.
@@ -55,6 +62,14 @@ accessibility aid, the application performs as expected.
 Warning in Chrome A11Y - (WARNING) These elements are focusable but either 
 invisible or obscured by another element
 ```
+
+Code is also checked with
+
+* eslint
+* jshint
+* jscs
+
+but no task runners (gulp, grunt) yet.
 
 ## To Do
 
